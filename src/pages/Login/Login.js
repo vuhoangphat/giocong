@@ -6,7 +6,7 @@ const layout = {
         span: 8
     },
     wrapperCol: {
-        span: 16
+        span: 20
     },
 }
 const tailLayout = {
@@ -18,7 +18,7 @@ const tailLayout = {
 const Login = () => {
     return (
         <div className='Login'>
-            <PageHeader title='Login' />
+            <PageHeader title='Welcome to Giocong' />
             <div className='form'>
                 <Form
                     {...layout}
